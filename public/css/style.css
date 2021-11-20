@@ -409,7 +409,7 @@ header.sticky .wallet-btn:hover {
 
 /*collect area start*/
 .collect-currency-wrapper {
-    padding: 84px 0;
+    padding: 100px 0 20px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
