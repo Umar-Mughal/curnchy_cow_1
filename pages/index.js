@@ -69,7 +69,7 @@ export default function Home() {
                             }
                             else{
                               console.log("overpreeeep: "+prep +"result="+result);
-                              setpresalestatus("Mint Now!")
+                              setpresalestatus("Mint and Collect Your Crunchy Cows Today! Public Sale is Open!")
                               setpercow1(pub_1_package_price);
                               setpercow2(pub_2_package_price);
                               setpercow3(pub_3_package_price);
@@ -346,12 +346,12 @@ async function mint_nft(price,num){
  
   {/* pre sale area end */}
   {/* collect currency area start */}
-  <div className="collect-currency-wrapper" style={{backgroundImage: 'url(./img/collect-currency-bg.png)'}}>
+  <div className="collect-currency-wrapper">
     <div className="container">
       <div className="row justify-content-center topArea">
         <div className="col-12 text-center">
-          <h2 className="collect-head" id="collect-head">Collect Crunchy Cows</h2>
-          <p className="collect-head" id="collect-head">{persalestatus}&nbsp;&nbsp;</p>
+          <h2 className="collect-head" id="collect-head">THE COWS ARE MOO-VING!</h2>
+          <p className="collect-head" id="collect-subHeading">{persalestatus}&nbsp;&nbsp;</p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div className="collect-box mt_30 text-center">

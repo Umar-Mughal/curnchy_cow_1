@@ -438,12 +438,7 @@ input[type=number] {
     color: white;
     font-size: 15px;
 }
-@media only screen and (min-width: 800px) {
-    .collect-currency-wrapper {
-        position: absolute;
-        height: 100vh;
-    }
-}
+
 .collect-head {
     color: #FFBA00;
     margin-bottom: 30px;
@@ -1248,4 +1243,33 @@ footer {
 }
 .topArea {
     margin-top: 45px;
+}
+#collect-subHeading {
+    line-height: 1.2;
+}
+
+
+body {
+    /* Location of the image */
+    background-image: url(../img/collect-currency-bg.png);
+
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Makes the image fixed in the viewport so that it doesn't move when
+       the content height is greater than the image height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
 }
