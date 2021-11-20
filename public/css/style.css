@@ -409,12 +409,41 @@ header.sticky .wallet-btn:hover {
 
 /*collect area start*/
 .collect-currency-wrapper {
-    padding: 100px 0;
+    padding: 84px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    margin-top: -40px;
+    width: 100%;
+}
+#link-mint-support {
+    text-align: center;
+    margin-top: 22px;
 }
 
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+#link-mint-support > a {
+    color: white;
+    font-size: 15px;
+}
+@media only screen and (min-width: 800px) {
+    .collect-currency-wrapper {
+        position: absolute;
+        height: 100vh;
+    }
+}
 .collect-head {
     color: #FFBA00;
     margin-bottom: 30px;
@@ -625,6 +654,12 @@ header.sticky .wallet-btn:hover {
 
 .rare-cow-img {
     width: 100%;
+}
+
+#cow-count {
+    background-color: #1e140b;
+    width: 50px;
+    height: 45px;
 }
 
 .toltip-box {
@@ -1017,6 +1052,7 @@ footer {
     -webkit-transform: translateY(-90px);
         -ms-transform: translateY(-90px);
             transform: translateY(-90px);
+    padding-bottom: 30px;
 }
 
 .first-modal .modal-body h2 {
@@ -1102,6 +1138,11 @@ footer {
 	background: transparent;
 }
 
+#max-cow-limit {
+    color: white;
+    padding-top: 13px;
+    font-size: 14px;
+}
 .connect-border {
     width: 1px;
     height: 40px;
@@ -1204,4 +1245,7 @@ footer {
     margin-top: 20px;
     font-size: 14px;
     font-family: 'arial';
+}
+.topArea {
+    margin-top: 45px;
 }

@@ -295,8 +295,8 @@ async function mint_nft(price,num){
      </Head>
     
 <body>
-      
-      
+
+
       
       <header className={scroll}>
       <div className="container">
@@ -348,7 +348,7 @@ async function mint_nft(price,num){
   {/* collect currency area start */}
   <div className="collect-currency-wrapper" style={{backgroundImage: 'url(./img/collect-currency-bg.png)'}}>
     <div className="container">
-      <div className="row justify-content-center">
+      <div className="row justify-content-center topArea">
         <div className="col-12 text-center">
           <h2 className="collect-head" id="collect-head">Collect Crunchy Cows</h2>
           <p className="collect-head" id="collect-head">{persalestatus}&nbsp;&nbsp;</p>
@@ -386,6 +386,7 @@ async function mint_nft(price,num){
          
         </div>
       </div>
+      <div id="link-mint-support"><a href='#'>#Mint-Support</a></div>
     </div>
   </div>
   {/* collect currency area end */}
@@ -408,26 +409,26 @@ async function mint_nft(price,num){
  
   {/* faq area end */}
   {/* footer area start */}
-  <footer className="position-relative">
-    <img className="footer-shape position-absolute" src="img/footer-shape.png" alt="" />
-    <div className="container">
-      <div className="row align-items-end">
-        <div className="col-xl-6 col-lg-7 col-md-6 footer-logo-custom">
-          <div>
-            <a className="footer-logo" href="#"><img src="img/footer-logo.png" alt="" /></a>
-            <div className="footer-content d-flex align-items-center">
-              <p>All Rights Reserved © 2021 </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-6 col-lg-5 col-md-6 footer-logo-custom">
-          <div className="footer-social text-right">
-            <a href="https://twitter.com/crunchycows"><i className="fab fa-twitter" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  {/*<footer className="position-relative">*/}
+  {/*  <img className="footer-shape position-absolute" src="img/footer-shape.png" alt="" />*/}
+  {/*  <div className="container">*/}
+  {/*    <div className="row align-items-end">*/}
+  {/*      <div className="col-xl-6 col-lg-7 col-md-6 footer-logo-custom">*/}
+  {/*        <div>*/}
+  {/*          <a className="footer-logo" href="#"><img src="img/footer-logo.png" alt="" /></a>*/}
+  {/*          <div className="footer-content d-flex align-items-center">*/}
+  {/*            <p>All Rights Reserved © 2021 </p>*/}
+  {/*          </div>*/}
+  {/*        </div>*/}
+  {/*      </div>*/}
+  {/*      <div className="col-xl-6 col-lg-5 col-md-6 footer-logo-custom">*/}
+  {/*        <div className="footer-social text-right">*/}
+  {/*          <a href="https://twitter.com/crunchycows"><i className="fab fa-twitter" /></a>*/}
+  {/*        </div>*/}
+  {/*      </div>*/}
+  {/*    </div>*/}
+  {/*  </div>*/}
+  {/*</footer>*/}
   {/* footer area end */}
   {/* collect currency area start */}
 
@@ -448,11 +449,16 @@ async function mint_nft(price,num){
                   <div className="d-flex p-2 align-items-center mt_30 wd50 center jus">
                      <h2 className="mr_10">COWS</h2>
                      <div>
-                       <input type="text" id="cow-count" className="input-info" placeholder="0" value={cowpackage} />
+                       <input type="number" id="cow-count" className="input-info"  value={cowpackage} onChange={(e) => {
+                           if (e.target.value <= 15) {
+                              return setcowpackage(e.target.value)
+                           }
+                       }} />
                        </div>
                   </div>
                <div className="text-center mt_30"><button onClick={()=>connect_wallet()} className={connectbtnclass}>{walletText}</button><span className="connect-border"></span>
                <button onClick={()=> _mint(cowpackage,presale_total,totalprice_display)} className="connect-btn mint-popup-button">MINT</button></div>
+                <center><p id="max-cow-limit">15 cow max</p></center>
                <p id="start-mint-text">{mintingstatus}</p>
             </div>
          </div>
