@@ -1,0 +1,695 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 1199.98px) { 
+	.collect-img {
+	    height: 100px;
+	}
+
+	.collect-box h3 {
+	    font-size: 22px;
+	}
+
+	.collect-box p {
+	    font-size: 17px;
+	}
+
+	.mint-btn {
+	    padding: 13px 70px;
+	    font-size: 17px;
+	}
+
+	.opensa-btn {
+	    padding: 20px 90px;
+	}
+
+	.rare-box {
+	    padding: 0 20px 40px 20px;
+	}
+
+	.table-first-text {
+	    font-size: 17px;
+	}
+
+	.table-second-text {
+	    font-size: 35px;
+	    padding: 0 0 0 90px;
+	}
+
+	.road-map-para {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+
+	.road-map-ab-1 {
+	    left: 26%;
+	}
+
+	.road-map-ab-2 {
+	    right: 5%;
+	}
+
+	.road-map-ab-4 {
+	    top: 54%;
+	    right: 4%;
+	}
+
+	.road-map-ab-5 {
+	    top: 70%;
+	    left: 15%;
+	}
+
+	.road-map-ab-6 {
+	    bottom: 8.50%;
+	    right: 15%;
+	}
+
+	.road-map-last-para {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+
+	.who-make-box h2 {
+	    font-size: 24px;
+	}
+
+	.who-make-box p {
+	    font-size: 13px;
+	}
+
+	.who-make-box a {
+	    font-size: 24px;
+	}
+
+	.who-make-box a img {
+	    width: 25px;
+	}
+
+	footer {
+	    padding: 0px 0 40px 0;
+	}
+
+	.footer-shape {
+	    width: 440px;
+	    right: 10%;
+	}
+
+	.footer-content p {
+	    font-size: 14px;
+	}
+
+	.pre-box h2 {
+	    font-size: 50px;
+	}
+
+	.pre-box h4 {
+	    font-size: 18px;
+	}
+
+	.search-box input {
+	    width: 400px;
+	    height: 50px;
+	}
+
+	.sign-btn {
+	    padding: 15px 40px;
+	    font-size: 18px;
+	}
+
+	.collect-head {
+	    font-size: 50px;
+	}
+
+	.perk-shape-08 {
+	    left: 44%;
+	    width: 40px;
+	}
+
+	.rare-wrapper {
+	    padding: 80px 0;
+	}
+
+	.road-map-img {
+	    margin-left: 100px;
+	}
+
+	.road-map-ab-1 {
+	    left: 20%;
+	    top: 21%;
+	}
+
+	.road-map-ab-2 {
+	    right: 10%;
+	    top: 32%;
+	}
+
+	.road-map-ab-3 {
+	    left: 15%;
+	    top: 46%;
+	}
+
+	.road-map-ab-4 {
+	    right: 11%;
+	}
+
+	.who-make-wrapper {
+	    padding: 80px 0 20px 0;
+	}
+
+	.faq-head {
+	    margin-top: 50px;
+	}
+	.social-btn {
+		padding: 0.3vw 0;
+	}
+}
+
+@media (max-width: 991.98px) {
+
+	.mobile-menu{
+		position: fixed;
+	    height: 100%;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    padding: 120px 0;
+	    background-color: #ffffff;
+	    z-index: -1;
+	    -webkit-transform: translateX(-100%);
+	        -ms-transform: translateX(-100%);
+	            transform: translateX(-100%);
+	    -webkit-transition: 0.4s;
+	    -o-transition: 0.4s;
+	    transition: 0.4s;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: start !important;
+	        -ms-flex-align: start !important;
+	            align-items: flex-start !important;
+	}
+
+	.mobile-menu.open {
+	    text-align: left;
+	    -webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	    transform: translateX(0);
+	}
+
+	.mobile-menu li{
+		display: block;
+		padding: 0 15px;
+		max-width: 720px;
+		margin: 0 auto;
+	}
+
+	.mobile-menu li a.nav-link{
+		line-height: 45px;
+		padding: 0;
+	    width: 100%;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+	
+	#menu li {
+	    display: block;
+	    text-align: left;
+	    padding: 0;
+	}
+
+	.home-shape-bg {
+		width: 100%;
+	}
+
+	.container {
+	    max-width: 100%;
+	}
+
+	.home-wrapper .container {
+		left: 50%;
+		max-width: 75%;
+		padding-bottom: 38.3%;
+	}
+
+	.home-cow {
+		margin-right: 2vw;
+		width: 24.6vw;
+	}
+
+	.home-content p {
+		font-size: 2.85vw;
+		line-height: 1.3;
+	}
+
+	.social-btn {
+		width: 23.00vw;
+	}
+
+	.wallet-btn {
+	    padding: 10px 35px;
+	    font-size: 15px;
+	}
+
+	.collect-head {
+	    margin-bottom: 15px;
+	    font-size: 50px;
+	}
+
+	.collect-currency-wrapper {
+	    padding: 40px 0;
+	}
+
+	.opensa-btn {
+	    padding: 15px 60px;
+	    margin-top: 60px;
+	    font-size: 20px;
+	}
+
+	.perk-shape-10 {
+	    bottom: -25%;
+	    left: -31%;
+	}
+
+	.perk-shape-12 {
+	    left: -15%;
+	}
+
+	.perk-shape-03 {
+	    right: -15%;
+	}
+
+	.perk-shape-05 {
+	    bottom: -22%;
+	    right: -10%;
+	}
+
+	.perk-shape-01, .perk-shape-02, .perk-shape-03, .perk-shape-04, .perk-shape-05, .perk-shape-06, .perk-shape-07, .perk-shape-08, .perk-shape-09, .perk-shape-10, .perk-shape-11, .perk-shape-12 {
+		display: none;
+	}
+
+	.perks-wrapper {
+	    padding: 40px 0 40px 0;
+	}
+
+	.table-first-text {
+	    font-size: 14px;
+	}
+
+	.table-second-text {
+	    padding: 0 0 0 30px;
+	}
+
+	.toltip-box p {
+	    font-size: 14px;
+	    line-height: 23px;
+	}
+
+	.tolitp-shape {
+	    bottom: -41%;
+	    width: 50px;
+	}
+
+	.road-map-img {
+	    margin-left: 30px;
+	}
+
+	.road-map-ab-1 {
+	    left: 13%;
+	    top: 23%;
+	}
+
+	.road-map-ab-2 {
+	    right: 10%;
+	    top: 34%;
+	}
+
+	.road-map-ab-3 {
+	    left: 10%;
+	    top: 48%;
+	}
+
+	.road-map-ab-5 {
+	    left: 10%;
+	    top: 72%;
+	}
+
+	.road-map-ab-6 {
+	    bottom: 7.50%;
+	    right: 17%;
+	}
+
+	.road-map-ab-4 {
+	    top: 57%;
+	}
+
+	.accordion .card {
+	    width: 98%;
+	}
+
+	.footer-logo img {
+	    width: 100%;
+	    -webkit-transform: translateX(-25px);
+	        -ms-transform: translateX(-25px);
+	            transform: translateX(-25px);
+	}
+
+	.footer-shape {
+	    width: 340px;
+	    right: 10%;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	.pre-box h2 {
+	    font-size: 45px;
+	}
+
+	.pre-box h4 {
+	    font-size: 15px;
+	}
+
+	.search-box input {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.collect-box {
+	    width: 90%;
+	}
+
+	.mint-btn {
+	    padding: 10px 60px;
+	    font-size: 15px;
+	}
+
+	.collect-head {
+	    font-size: 45px;
+	}
+
+	.toltip-box {
+	    margin: 30px 0 30px 0;
+	}
+
+	.road-map-para {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+
+	.road-map-ab-1 {
+	    top: 26%;
+	}
+
+	.road-map-ab-3 {
+	    top: 49%;
+	}
+
+	.road-map-para.mt_20 {
+	    margin-top: 5px;
+	}
+
+	.road-map-last-para {
+	    font-size: 13px;
+	}
+
+	.road-map-ab-2 {
+	    top: 36%;
+	}
+
+	.road-map-ab-4 {
+	    right: 9%;
+	}
+
+	.who-make-wrapper {
+	    padding: 40px 0 20px 0;
+	}
+
+	.meet-bros-text {
+	    margin-top: 30px;
+	}
+
+	.custom_grid .col {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 25%;
+	}
+
+	.view-btn {
+	    padding: 13px 50px;
+	    font-size: 16px;
+	}
+
+	.faq-head {
+	    margin-top: 30px;
+	}
+
+	.footer-shape {
+		display: none;
+	}
+
+	.footer-logo img {
+	    width: 400px;
+	    -webkit-transform: none;
+	        -ms-transform: none;
+	            transform: none;
+	}
+
+	.footer-logo-custom {
+		text-align: center;
+	}
+
+	.footer-content {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	}
+
+	.footer-logo-custom .text-right {
+	    text-align: center !important;
+	    margin-top: 20px;
+	}
+
+	.faw-wrapper {
+	    padding: 200px 0 60px 0;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	.pre-box h2 {
+	    font-size: 30px;
+	}
+
+	.pre-box h4 {
+	    font-size: 12px;
+	    max-width: 250px;
+	    margin: 15px auto auto auto;
+	}
+
+	.search-box input {
+	    width: 90%;
+	    margin: 0 auto;
+	    font-size: 13px;
+	}
+
+	.sign-btn {
+	    font-size: 13px;
+	    margin-top: 30px;
+	    padding: 10px 40px;
+	}
+
+	.pre-wrapper {
+    	padding: 30px 0 30px 0;
+	}
+
+	.collect-head {
+	    font-size: 30px;
+	    margin-bottom: 0;
+	}
+
+	.park-box {
+	    width: auto;
+	    margin-top: 30px;
+	}
+
+	.park-box li {
+	    font-size: 14px;
+	    margin-top: 15px;
+	    line-height: 22px;
+	}
+
+	.table-second-text {
+	    font-size: 25px;
+	}
+
+	.rare-wrapper {
+	    padding: 40px 0;
+	}
+
+	.road-map-img {
+		display: none;
+	}
+
+	.road-map-para {
+	    position: relative !important;
+	    left: auto !important;
+	    top: auto !important;
+	    right: auto !important;
+	    bottom: auto !important;
+	}
+
+	.road-map-ab-5 {
+	    position: relative;
+	    top: auto !important;
+	    left: auto !important;
+	    right: auto;
+	    bottom: auto;
+	}
+
+	.road-percent {
+	    text-align: left;
+	    display: block !important;
+	    color: #ffffff;
+	    margin-bottom: 10px;
+	    margin-top: 30px;
+	}
+
+	.road-map-ab-4 {
+	    position: relative !important;
+	    top: auto;
+	    right: auto;
+	}
+
+	.road-map-ab {
+	    width: 50%;
+	    float: left;
+	}
+
+	.road-map-last-para {
+	    margin-top: 20px;
+	}
+
+	.road-map-last-para br {
+		display: none;
+	}
+
+	.who-make-box p {
+	    font-size: 13px;
+	    max-width: 200px;
+	    margin: 10px auto auto auto;
+	}
+
+	.who-make-box h2 {
+	    font-size: 20px;
+	}
+
+	.who-make-box a {
+	    font-size: 18px;
+	}
+
+	.who-make-box a img {
+	    width: 20px;
+	}
+
+	.custom_grid .col {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+
+	.accordion .card-body {
+	    font-size: 16px;
+	}
+
+	.accordion .card-header {
+	    padding: 20px 30px 20px 30px;
+	}
+
+	.accordion .card-header h2 {
+	    font-size: 17px;
+	}
+
+	.faw-wrapper {
+	    padding: 200px 0 50px 0;
+	}
+
+	.footer-logo img {
+	    width: 300px;
+	}
+
+	.home-content p br {
+		display: none;
+	}
+
+	.oppos-close {
+	    width: 40px;
+	    right: -10px;
+	    top: -20px;
+	}
+
+	.opps-text h2 {
+	    font-size: 20px;
+	}
+
+	.try-btn {
+	    font-size: 20px;
+	    margin-top: 20px;
+	}
+
+	.first-modal .modal-header-shape h2 {
+	    font-size: 18px;
+	}
+
+	.first-modal .modal-body h2 {
+	    font-size: 17px;
+	}
+
+	.first-modal .modal-body {
+	    padding: 100px 10px 40px 10px;
+	    -webkit-transform: translateY(-90px);
+	        -ms-transform: translateY(-90px);
+	            transform: translateY(-90px);
+	}
+
+	.input-info {
+	    width: 60px;
+	    height: 50px;
+	    font-size: 16px;
+	}
+
+	.connect-btn {
+		font-size: 16px;
+	}
+
+	.first-modal .hour-text {
+	    font-size: 12px;
+	}
+
+	.social-btn {
+		font-size: 2.85vw;
+	}
+
+	.moo-text {
+		font-size: 2.85vw;
+	}
+
+	.social-btn img {
+		margin-right: 1.5vw;
+		width: 3vw;
+	}
+}
+
