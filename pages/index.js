@@ -386,7 +386,7 @@ async function mint_nft(price,num){
          
         </div>
       </div>
-      <div id="link-mint-support"><a href='#'>#Mint-Support</a></div>
+      <div id="link-mint-support"><a href='https://discord.com/invite/B7NU832s'>#Mint-Support</a></div>
     </div>
   </div>
   {/* collect currency area end */}
