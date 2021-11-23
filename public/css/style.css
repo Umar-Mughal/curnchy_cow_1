@@ -651,11 +651,11 @@ input[type=number] {
     width: 100%;
 }
 
-#cow-count {
-    background-color: #1e140b;
-    width: 50px;
-    height: 45px;
-}
+/*#cow-count {*/
+/*    background-color: #1e140b;*/
+/*    width: 50px;*/
+/*    height: 45px;*/
+/*}*/
 
 .toltip-box {
     padding: 25px 20px;

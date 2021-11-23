@@ -449,11 +449,7 @@ async function mint_nft(price,num){
                   <div className="d-flex p-2 align-items-center mt_30 wd50 center jus">
                      <h2 className="mr_10">COWS</h2>
                      <div>
-                       <input type="number" id="cow-count" className="input-info"  value={cowpackage} onChange={(e) => {
-                           if (e.target.value <= 15) {
-                              return setcowpackage(e.target.value)
-                           }
-                       }} />
+                       <input type="number" id="cow-count" className="input-info"  value={cowpackage} />
                        </div>
                   </div>
                <div className="text-center mt_30"><button onClick={()=>connect_wallet()} className={connectbtnclass}>{walletText}</button><span className="connect-border"></span>
