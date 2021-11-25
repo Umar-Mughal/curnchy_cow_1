@@ -12,6 +12,7 @@ export default function Home() {
   let totalmint;
   let [connectbtnclass, setconnectbtnclass] = useState('connect-btn');
   let [persalestatus, setpresalestatus] = useState('-');
+  let [saleOpenStatus, setSaleOpenStatus] = useState('');
   let [cowpackage, setcowpackage] = useState(0);
   let [walletText, setwalletText] = useState('Wallet');
   let [percow1, setpercow1] = useState('-');
@@ -69,7 +70,8 @@ export default function Home() {
                             }
                             else{
                               console.log("overpreeeep: "+prep +"result="+result);
-                              setpresalestatus("Mint and Collect Your Crunchy Cows Today! Public Sale is Open!")
+                              setpresalestatus("Mint to Collect Crunchy Cows Today!")
+                              setSaleOpenStatus("Public Sale is Open!")
                               setpercow1(pub_1_package_price);
                               setpercow2(pub_2_package_price);
                               setpercow3(pub_3_package_price);
@@ -350,8 +352,9 @@ async function mint_nft(price,num){
     <div className="container">
       <div className="row justify-content-center topArea">
         <div className="col-12 text-center">
-          <h2 className="collect-head" id="collect-head">THE COWS ARE MOO-VING!</h2>
-          <p className="collect-head" id="collect-subHeading">{persalestatus}&nbsp;&nbsp;</p>
+          {/*<h2 className="collect-head" id="collect-head">THE COWS ARE MOO-VING!</h2>*/}
+          <p className="collect-head" id="collect-subHeading">{persalestatus.toUpperCase()  }&nbsp;&nbsp;</p>
+            {persalestatus && <p className="collect-head" id="collect-subHeading-sale">{saleOpenStatus.toUpperCase()}&nbsp;&nbsp;</p> }
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div className="collect-box mt_30 text-center">
@@ -386,7 +389,11 @@ async function mint_nft(price,num){
          
         </div>
       </div>
-      <div id="link-mint-support"><a href='https://discord.com/invite/B7NU832s'>#Mint-Support</a></div>
+        <div id="sub-footer-heading">
+            <p>FOR BEST RESULTS ON DESKTOP: USE CHROME BROWSER WITH METAMASK EXTENSION</p>
+            <p>MOBILE MINTING IS ONLY AVAILABLE IN METAMASK BROWSER</p>
+        </div>
+      <div id="link-mint-support"><a href='https://discord.com/invite/B7NU832s' target="_blank">Discord: #mint-support</a></div>
     </div>
   </div>
   {/* collect currency area end */}
@@ -480,10 +487,6 @@ async function mint_nft(price,num){
 
 
 
-
-
-
-  
     <Script src="js/jquery-3.4.1.min.js"></Script>
     <Script src="js/plugins.js"></Script>
     <Script src="js/jquery.magnific-popup.min.js"></Script>

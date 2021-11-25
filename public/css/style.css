@@ -418,10 +418,13 @@ header.sticky .wallet-btn:hover {
 }
 #link-mint-support {
     text-align: center;
-    margin-top: 22px;
+    margin-top: 3px;
 }
 
-
+#link-mint-support > a {
+    background-color: rgb(69, 129, 35);
+    padding: 3px 8px;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -439,10 +442,37 @@ input[type=number] {
     font-size: 15px;
 }
 
+#collect-subHeading-sale {
+    color: white;
+    margin-bottom: 70px;
+}
+
+#collect-subHeading {
+    margin-top: 50px;
+    word-spacing: 4px;
+}
+
+#sub-footer-heading {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    word-spacing: 3px;
+    color: rgb(254, 173, 9);
+}
 .collect-head {
     color: #FFBA00;
     margin-bottom: 30px;
-    font-size: 55px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+    .collect-head {
+        line-height: 1.2;
+    }
 }
 
 .collect-box {
@@ -1243,9 +1273,6 @@ footer {
 }
 .topArea {
     margin-top: 45px;
-}
-#collect-subHeading {
-    line-height: 1.2;
 }
 
 
