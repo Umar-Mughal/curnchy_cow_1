@@ -393,7 +393,7 @@ async function mint_nft(price,num){
             <p>FOR BEST RESULTS ON DESKTOP: USE CHROME BROWSER WITH METAMASK EXTENSION</p>
             <p>MOBILE MINTING IS ONLY AVAILABLE IN METAMASK BROWSER</p>
         </div>
-      <div id="link-mint-support"><a href='https://discord.com/invite/B7NU832s' target="_blank">Discord: #mint-support</a></div>
+      <div id="link-mint-support"><a href='https://discord.gg/5W6TrRYNQm' target="_blank">Discord: #mint-support</a></div>
     </div>
   </div>
   {/* collect currency area end */}
